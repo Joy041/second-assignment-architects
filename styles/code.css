@@ -1,0 +1,510 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --white: white;
+    --dark1: #131313;
+    --dark2: #727272;
+    --dark3: #FF900E;
+    --dark4: rgb(198, 241, 241);
+    --bisque: bisque;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Architects Header Styles */
+header{
+    background-color: var(--bisque);
+}
+
+.header-architects{
+    display: flex;
+    align-items: center;
+}
+
+.header-tittle{
+    margin-left: 14.25rem;
+    margin-top: 3.125rem;
+    font-weight:700;
+    font-size: 45px;
+}
+
+.header-icon ul{
+    display: flex;
+    list-style: none;
+    margin-left: 746px;
+    margin-top: 63px;
+}
+
+.header-icon ul li{
+    /* font-size: 18px; */
+    font-weight: 500;
+    padding-left: 65px;
+}
+
+.header-icon ul li a{
+    text-decoration: none;
+    color: var(--dark1);
+}
+
+/* New Group Styles */
+.header-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 205px;
+    margin-left: 446px;
+    margin-right: 529px;
+    margin-bottom: 30px;
+}
+
+.new-group-tittle{
+    font-size: 64px;
+    font-weight: 700;
+    margin-left: 70px;
+}
+.new-group-tittle-tow{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.new-group-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.new-group-description-tow{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.new-group-btn{
+    border: 0;
+    border-radius: 6px;
+    width: 180px;
+    height: 64px;
+    color: var(--white);
+    background-color: var(--dark3);
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 68px;
+}
+
+.new-group-img{
+    margin-bottom: 50px;
+    margin-left: 85px;
+}
+
+/* Our Features Styles */
+.features{
+    display: flex;
+}
+
+.features-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-left: 260px;
+    margin-top: 25px;
+}
+
+.features-info{
+    margin-left: 65px;
+    margin-right: 238px;
+    margin-top: 238px;
+}
+
+.features-tittle{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.features-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.features-info-btn{
+    border: 0;
+    border-radius: 6px;
+    width: 180px;
+    height: 64px;
+    color: var(--white);
+    background-color: var(--dark3);
+    font-size: 20px;
+}
+
+.dark1{
+    color: var(--dark1);
+}
+
+.dark2{
+    color: var(--dark2);
+}
+
+.dark3{
+    color: var(--dark3);
+}
+
+/* Features you will love & enjoy section */
+.enjoy{
+    display: flex;
+}
+
+.enjoy-tittle{
+    font-size: 45px;        
+    font-weight: 700;
+    margin: 169px 15px 132px 233px;
+    padding-left: 8px;
+    border-left: 5px solid var(--dark3);
+}
+
+.enjoy-info-tittle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 270px;
+}
+
+.enjoy-info-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 270px;
+    margin-right: 293px;
+    margin-bottom: 110px;
+    color: var(--dark2);
+}
+
+.enjoy-info-img{
+    margin-right: 222px;
+    margin-top: 130px;
+}
+
+.enjoy-btn{
+    border: 0;
+    border-radius: 6px;
+    width: 275px;
+    height: 165px;
+    color: var(--white);
+    background-color: var(--dark3);
+    font-size: 20px;
+    position: absolute;
+    margin-left: 869px;
+    margin-top: 1027px;
+}
+
+.year{
+    font-size: 45px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.Experience{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+
+/* Facts Styles */
+.facts{
+    margin-top: 105px;
+    margin-left: 233px;
+    margin-right: 1217px;
+}
+
+.facts-tittle{
+    margin-bottom: 5px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.facts-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark2);
+}
+
+/* Information styles */
+.informations{
+    margin-top: 100px;
+    width: 72vw;
+    margin-left: 272px;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 137px;
+}
+.awards{
+    border: 1px solid var(--dark3);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.awards:hover{
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+.awards-img{
+    padding-top: 60px;
+    padding-bottom: 9px;
+}
+
+.awards-number{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.awards-info{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 60px;
+    color: var(--dark2);
+}
+
+/* Our Sponsors Styles */
+.sponsor-tittle{
+    margin-top: 180px;
+    margin-bottom: 24px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 864px;
+}
+
+.sponsor-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dark2);
+    margin-left: 796px;
+}
+.sponsor-description-tow{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dark2);
+    margin-left: 884px;
+}
+
+.sponsor-icon{
+    margin-left: 49px;
+    margin-top: 35px;
+    filter: grayscale(1);
+}
+
+.sponsor-icon-img{
+    margin-left: 165px;
+}
+
+/* Latest news styles */
+.latest{
+    display: flex;
+    gap: 50px;
+    margin-top: 180px;
+    margin-left: 272px;
+    
+}
+
+.latest-tittle{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.signup{
+    margin-top: 16px;
+    margin-left: 445px;
+}
+
+.signup-tittle{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.signup-email{
+    font-size: 14px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px 125px 10px 6px;
+}
+
+.signup-btn{
+    border: 0px;
+    border-radius: 6px;
+    width: 96px;
+    height: 29px;
+    color: var(--white);
+    background-color: var(--dark3);
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+/* Footer */
+.footer{
+    background-color: var(--bisque);
+    height: 56px;
+    width: 1516px;
+    margin-left: 208px;
+    margin-top: 130px;
+}
+
+.footer-tittle{
+    font-size: 20px;
+    padding-top: 17px;
+    margin-left: 494px;
+}
+
+@media only screen and (max-width:576px) {
+    /* Architects Header Styles */
+    .header-architects{
+        flex-direction: column;
+    }
+    .header-tittle{
+        margin-left: 0px;
+    }
+    .header-icon{
+        margin-left: 0px;
+    }
+    .header-icon ul{
+        /* flex-direction: column; */
+        margin-left: 0px;
+        gap: 12px;
+    }
+    .header-info{
+        margin-left: 33px;
+        margin-right: 60px;
+        margin-top: 100px;
+    }
+    .new-group-description{
+        margin-left: 42px;
+    }
+    .new-group-description-tow{
+        margin-left: 42px;
+    }
+    .header-icon ul li{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .new-group-btn{
+        margin-left: 29px;
+    }
+    .new-group-tittle{
+        margin-left: 25px;
+    }
+    .new-group-tittle-tow{
+        margin-left: 45px;
+    }
+    .new-group-img{
+        width: 85vw;
+        margin-left: 27px;
+    }
+    /* Our Features Styles */
+    .features-pic{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 36px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .features-info{
+        margin-left: 101px;
+        margin-right: 80px;
+        margin-top: 39px;
+    }
+    /* Features you will love & enjoy section */
+    .enjoy{
+        flex-direction: column;
+    }
+    .enjoy-tittle{
+        margin: 127px 15px 70px 53px;
+    }
+    .enjoy-info-tittle{
+        margin-left: 79px;
+    }
+    .enjoy-info-description{
+        margin-left: 79px;
+        margin-right: 62px;
+    }
+    .enjoy-info-img{
+        width: 80vw;
+        margin-top: 0;
+        margin-left: 43px;
+    }
+    .enjoy-btn{
+        width: 218px;
+        height: 104px;
+        margin-left: 98px;
+        margin-top: 1587px;
+    }
+    /* Facts Styles */
+    .facts{
+        margin-right: 55px;
+        margin-left: 72px;
+        margin-top: 165px;
+    }
+    /* Information styles */
+    .information{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .informations{
+        margin-left: 58px;
+    }
+    /* Our Sponsors Styles */
+    .sponsor-tittle{
+        margin-left: 85px;
+    }
+    .sponsor-description{
+        margin-left: 58px;
+    }
+    .sponsor-icon{
+        margin-left: -32px;
+        margin-top: 0;
+    }
+    .sponsor-icon-img{
+        margin-bottom: 35px;
+    }
+    /* Latest news styles */
+    .latest{
+        flex-direction: column;
+        gap: 0;
+        margin-top: 150px;
+        margin-left: 68px;
+    }
+    .signup{
+        margin-top: 80px;
+        margin-left: 2px;
+    }
+    .signup-btn{
+        margin-left: 0;
+    }
+    /* Footer styles */
+    .footer{
+        height: 56px;
+        width: 399px;
+        margin-left: 7px;
+        margin-top: 130px;
+        margin-bottom: 20px;
+    }
+    .footer-tittle{
+        font-size: 12px;
+        padding-top: 22px;
+        margin-left: 50px;
+    }
+
+}
